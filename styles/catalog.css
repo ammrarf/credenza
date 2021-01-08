@@ -1,0 +1,125 @@
+@import 'base.css';
+
+main {
+    margin-top: 250px;
+}
+
+#cat-container {
+    width: min(90%, 1000px);
+    margin: 0 auto;
+}
+
+#cat-grid-layout {
+    display: grid;
+    grid-template-columns: clamp(170px, 25vw, 230px) clamp(425px, 70vw, 740px);
+    grid-template-areas: "selectmenu items";
+    column-gap: 30px;
+}
+
+#selectmenu__heading {
+    padding: 10px 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    background: var(--secondary-color);
+}
+
+#cat__selectmenu {
+    grid-area: selectmenu;
+}
+
+#cat__selectmenu ul {
+    padding-left: 30px;
+    margin-top: 15px;
+}
+
+.selectmenu__selection {
+    font-size: 0.95rem;
+    font-weight: 300;
+    padding: 10px 20px;
+    border-bottom: 1px solid var(--secondary-color);
+    cursor: pointer;
+}
+
+.selection-active {
+    background: #42413d;
+}
+
+#cat__items-grid {
+    grid-area: items;
+    display: grid;
+    min-height: 1020px;
+    grid-template-columns: repeat(auto-fill, 240px);
+    grid-auto-rows: min-content;
+    row-gap: 15px;
+    column-gap: 10px;
+    border-bottom: 1px solid var(--secondary-color);
+    padding-bottom: 50px;
+}
+
+.item-card {
+    /* height: 330px; */
+    position: relative;
+    transition: transform 90ms ease-out;
+    border-radius: .3rem;
+    /* overflow: hidden; */
+}
+
+/* 
+.item-card::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    box-shadow: 0 2px 20px rgba(22, 22, 22, 0.897);
+    opacity: 0;
+    transition: opacity 100ms ease-in-out;
+}
+
+.item-card:hover::after {
+    opacity: 100%;
+}
+
+.item-card:hover {
+    transform: scale(1.04);
+} */
+
+/* thumbnail dimension : 240px x 240px */
+.card__thumbnail {
+    object-fit: cover;
+    object-position: center;
+    display: block;
+    height: 240px;
+    width: 100%;
+    /* width = 240px */
+    background: white;
+    color: black;
+}
+
+.card__body {
+    height: 70px;
+    font-weight: 300;
+    font-size: 0.85rem;
+    box-sizing: border-box;
+    padding: 0.9em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card__title {
+    text-align: center;
+    overflow: hidden;
+    line-height: 1.2;
+}
+
+.card__price {
+    font-size: 0.75rem;
+    color: #9A9997;
+}
+
+@media only screen and (min-width: 760px) {
+
+
+}
