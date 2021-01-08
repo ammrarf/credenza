@@ -1,9 +1,9 @@
 # CREDENZA.
 Prepared by :-
 1. MUHAMMAD AMMAR ARIF BIN MOHD MAHMUD  1911451
-2. 
-3. 
-4. 
+2. NURUL SA'ADAH BINTI MOHAMMAD NOR     1911510
+3. INTAN AMIRAH BINTI ROSRE             1918692
+4. AJWA D'ANEEZ BINTI MOHD SHUKARI      1919956
 
 ## PROJECT DESCRIPTION
 CREDENZA. is a website for a home furniture retailer to showcase their furniture collections.
@@ -19,40 +19,3 @@ CREDENZA. is a website for a home furniture retailer to showcase their furniture
 * Blog
   * Inspiration
   * News
-
-## GROUP CONTRIBUTIONS
-
-<table>
-  <thead>
-    <tr>
-      <th>Name</th>
-      <th>Matric No.</th>
-      <th>Contributions</th>
-    </tr>
-  </thead>
-  
-  <tbody>
-    <tr>
-      <td>Ammar Arif</td>
-      <td>1911451</td>
-      <td> </td>
-    </tr>
-    <tr>
-      <td>Ammar Arif</td>
-      <td>1911451</td>
-      <td> </td>
-    </tr>
-    <tr>
-      <td>Ammar Arif</td>
-      <td>1911451</td>
-      <td> </td>
-    </tr>
-    <tr>
-      <td>Ammar Arif</td>manta
-      <td>1911451</td>
-      <td> </td>
-    </tr>
-  </tbody>
-</table>
-
-## USE OF THIRD-PARTY RESOURCES
