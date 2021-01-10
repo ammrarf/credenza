@@ -1,0 +1,115 @@
+@import 'base.css';
+
+*,
+::after,
+::before {
+    box-sizing: content-box;
+}
+
+body {
+    background-color: #353432;
+    overflow: auto;
+    font-family: 'Montserrat', sans-serif;
+    line-height: normal;
+}
+
+p {
+    margin-top: 1.15rem;
+}
+
+a {
+    color: unset !important;
+}
+
+
+.page-banner-container {
+    margin-bottom: 80px;
+}
+
+.card-deck {
+    gap: 15px;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+}
+
+.card {
+    border: 2px solid;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+    border: none;
+    border-radius: .3rem;
+    background-color: var(--secondary-color);
+    overflow: hidden;
+    box-shadow: var(--card-shadow-primary-bg);
+}
+
+#section--inspo {
+    margin-bottom: 100px;
+}
+
+#section--inspo .card {
+    transition: transform 200ms ease-in-out;
+}
+
+#section--inspo .card:hover {
+    transform: scale(1.03);
+}
+
+.card-block {
+    padding: 30px 20px;
+}
+
+.card-title {
+    text-transform: uppercase;
+    line-height: 1;
+    color: white;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.card-text {
+    color: white;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+.btn {
+    background-color: var(--accent-color);
+}
+
+#section--news .post-deck {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#section--news .post {
+    display: flex;
+    flex-flow: row wrap;
+    overflow: hidden;
+    background: var(--secondary-color);
+    box-shadow: var(--card-shadow-primary-bg);
+    border-radius: .3rem;
+}
+
+.post-text {
+    padding: 1.7em;
+}
+
+.post-img {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 340px;
+}
+
+.post-img,
+.post-text {
+    flex: 1 400px;
+}
+
+.post-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
