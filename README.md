@@ -6,7 +6,7 @@ Prepared by :-
 4. AJWA D'ANEEZ BINTI MOHD SHUKARI      1919956
 
 ## PROJECT DESCRIPTION
-CREDENZA. is a website for a home furniture retailer to showcase their furniture collections.
+CREDENZA. is a website for a home furniture store to showcase their furniture collections.
 
 ## PROJECT SITEMAP
 * Home
