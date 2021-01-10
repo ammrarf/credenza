@@ -21,6 +21,8 @@ CREDENZA. is a website for a home furniture retailer to showcase their furniture
   * News
  
 ## Resources
-Images : https://www.pexels.com/
-
-Icons : https://www.flaticon.com/
+* Images : https://www.pexels.com/
+* Icons : https://www.flaticon.com/
+* Animate.css : https://animate.style/
+* jQuery : https://jquery.com/
+* jQuery UI : https://jqueryui.com/
