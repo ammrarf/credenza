@@ -9,7 +9,7 @@ Prepared by :-
 CREDENZA. is a website for a home furniture retailer to showcase their furniture collections.
 
 ## PROJECT SITEMAP
-* Homepage
+* Home
 * Collection 
   * Catalog
 * About
